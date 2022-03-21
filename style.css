@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: 'Fredoka', sans-serif;
+  background-color: black;
+}
+
+p {
+  margin: 0;
+}
+
+label {
+  font-size: .6rem;
+  color: #444444;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 120%;
+  border: 1px solid #E5E7EB;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright-p {
+  color: #989898;
+  position: absolute;
+  padding-left: 25%;
+  bottom: 1%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+a {}
+
+.logo-container {
+  width: auto;
+  height: 15%;
+  position: relative;
+  top: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo-img {
+  height: 85%;
+  margin: auto;
+  padding-left: 25%;
+  float: left;
+}
+
+.logo-p {
+  color: red;
+  display: inline-block;
+  font-family: 'MedievalSharp', cursive;
+  color: white;
+  font-size: 400%;
+  padding-top: 7%;
+}
+
+.already-p {
+  padding-top: 8%;
+  font-size:
+}
+
+.already-a {
+  color: #464E2E;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.already-a:hover {
+  color: #BB6464;
+}
+
+.input-div {
+  display: inline-block;
+  padding-right: 65px;
+  padding-bottom: 15px;
+}
+
+.left-container {
+  display: inline-block;
+  background: url('/Users/tanieadas/Desktop/Web Development/Sign-Up Form/image/background-img.webp') no-repeat center;
+  height: 100vh;
+  width: 25vw;
+  position: absolute;
+  left: 20vw;
+  background-size: cover;
+}
+
+.right-container {
+  display: inline-block;
+  height: 100vh;
+  width: 40vw;
+  position: absolute;
+  left: 45vw;
+}
+
+.top-container {
+  background-color: #F7F7F7;
+  height: 33vh;
+  padding-left: 6%;
+}
+
+.top-p {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 100;
+  font-size: 110%;
+  padding: 20% 10% 0 0;
+}
+
+.mid-container {
+  height: 33vh;
+  box-shadow: 0 10px 5px -5px #E1E5EA;
+  padding-left: 8%;
+  position: relative;
+  background-color: white;
+}
+
+.bottom-container {
+  background-color: #F7F7F7;
+  height: 34vh;
+  padding-left: 8%;
+  padding-top: 5%;
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  background: #596D48;
+  padding: 9px 29px 11px 27px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #A1B57D;
+  text-decoration: none;
+}
